@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"  
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">    
+  <ShortName>Douban music</ShortName>
+  <Description>Douban music search</Description>
+  <InputEncoding>gb2312</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">http://www.douban.com/favicon.ico</Image>
+  <Url type="text/html" method="GET" template="http://music.douban.com/subject_search">
+    <Param name="search_text" value="{searchTerms}" />
+  </Url>
+ 
+  <SearchForm>http://music.douban.com</SearchForm>
+</OpenSearchDescription>
