@@ -4,7 +4,7 @@
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">    
   <ShortName>Douban movie</ShortName>
   <Description>Douban movie search</Description>
-  <InputEncoding>gb2312</InputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">http://www.douban.com/favicon.ico</Image>
   <Url type="text/html" method="GET" template="http://movie.douban.com/subject_search">
     <Param name="search_text" value="{searchTerms}" />
